@@ -30,4 +30,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  label:
+    rail_tuts: "Ruby on Rails Tutorial Sample App"
+    rail_help: "Rails Tutorial help section"
