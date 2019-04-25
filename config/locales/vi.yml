@@ -1,4 +1,20 @@
 vi:
   label:
-    rail_tuts: "Bài hướng dẫn Ruby On Rails"
-    rail_help: "Phần trợ giúp của Rails Tutorial"
+    rail_tuts: "Bai huong dan Ruby On Rails"
+    rail_help: "Phan giup do bai Ruby On Rails"
+    by: "cua"
+    welcome: "Chao mung den voi %{logo}"
+    title: "Day la %{name} cho "
+    help: "De den trang giup do %{logo}, co the xem "
+    teach: "de day cac lap trinh vien voi "
+  link:
+    home: "Trang chu"
+    about: "Gioi thieu"
+    help: "Tro giup"
+    contact: "Lien he"
+    news: "Tin tuc"
+    login: "Dang nhap"
+    signup: "Dang ki ngay!"
+    logo: "Sample App"
+    series: "loat bai viet"
+    book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
