@@ -2,7 +2,7 @@ require "test_helper"
 
 class ApplicationHelperTest < ActionView::TestCase
   def setup
-    @base_title = "Ruby on Rails Tutorial Sample App"
+    @base_title = I18n.t "label.rail_tuts"
   end
 
   test "full title helper" do
