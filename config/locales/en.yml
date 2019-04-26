@@ -7,6 +7,10 @@ en:
     title: "This is a %{name} Page for "
     help: "To get help on this %{logo}, see the "
     teach: "to teach web development with "
+    name: "Name"
+    email: "Email"
+    pass: "Password"
+    confirm: "Confirmation"
   link:
     home: "Home"
     about: "About"
@@ -16,5 +20,11 @@ en:
     login: "Log In"
     signup: "Sign Up Now!"
     logo: "Sample App"
+    create: "Create my account"
     series: "screencast series"
     book_html: is a <a href="https://www.railstutorial.org/book">book</a>
+  message:
+    nil_user: "User is not found!"
+    error:
+      one: "The form contains %{count} error."
+      other: "The form contains %{count} errors."

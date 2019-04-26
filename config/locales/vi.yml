@@ -7,6 +7,10 @@ vi:
     title: "Day la %{name} cho "
     help: "De den trang giup do %{logo}, co the xem "
     teach: "de day cac lap trinh vien voi "
+    name: "Ten"
+    email: "Email"
+    pass: "Mat khau"
+    confirm: "Nhap lai mat khau"
   link:
     home: "Trang chu"
     about: "Gioi thieu"
@@ -16,5 +20,11 @@ vi:
     login: "Dang nhap"
     signup: "Dang ki ngay!"
     logo: "Sample App"
+    create: "Tao tai khoan"
     series: "loat bai viet"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
+  message:
+    nil_user: "Khong tim thay nguoi dung nay!"
+    error:
+      one: "Ban chi con %{count} loi."
+      other: "Ban co %{count} loi."
