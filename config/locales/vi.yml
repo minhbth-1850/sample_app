@@ -11,6 +11,7 @@ vi:
     email: "Email"
     pass: "Mat khau"
     confirm: "Nhap lai mat khau"
+    remember: "Ghi nho"
   link:
     home: "Trang chu"
     about: "Gioi thieu"
