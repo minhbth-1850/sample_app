@@ -22,9 +22,15 @@ en:
     logo: "Sample App"
     create: "Create my account"
     series: "screencast series"
+    users: "Users"
+    profile: "Profile"
+    setting: "Settings"
+    logout: "Log Out"
+    account: "Account"
     book_html: is a <a href="https://www.railstutorial.org/book">book</a>
   message:
     nil_user: "User is not found!"
+    fail_login: "Invalid email/password combination"
     error:
       one: "The form contains %{count} error."
       other: "The form contains %{count} errors."

@@ -22,9 +22,15 @@ vi:
     logo: "Sample App"
     create: "Tao tai khoan"
     series: "loat bai viet"
+    users: "Thanh vien"
+    profile: "Ho so"
+    setting: "Cai dat"
+    logout: "Dang xuat"
+    account: "Tai khoan"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
   message:
     nil_user: "Khong tim thay nguoi dung nay!"
+    fail_login: "Email hoac mat khau khong dung!"
     error:
       one: "Ban chi con %{count} loi."
       other: "Ban co %{count} loi."
