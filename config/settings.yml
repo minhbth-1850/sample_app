@@ -3,3 +3,5 @@ users:
   email_length: 255
   pass_min_length: 6
   avatar_size: 80
+conditions:
+  checked: "1"
