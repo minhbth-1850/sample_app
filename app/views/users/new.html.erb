@@ -1,24 +1,8 @@
 <% provide(:title, t("link.signup")) %>
+<% provide(:button_text, t("link.create")) %>
 <h1><%= t("link.signup") %></h1>
-
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for @user, url: signup_path do |f| %>
-      <%= render "shared/error_messages" %>
-
-      <%= f.label :name, t("label.name") %>
-      <%= f.text_field :name, class: "form-control" %>
-
-      <%= f.label :email, t("label.email") %>
-      <%= f.email_field :email, class: "form-control" %>
-
-      <%= f.label :password, t("label.pass") %>
-      <%= f.password_field :password, class: "form-control" %>
-
-      <%= f.label :password_confirmation, t("label.confirm") %>
-      <%= f.password_field :password_confirmation, class: "form-control" %>
-
-      <%= f.submit t("link.create"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>
   </div>
 </div>
