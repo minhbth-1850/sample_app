@@ -1,0 +1,6 @@
+<% provide(:title, t("link.users")) %>
+<h1><%= t("link.users") %></h1>
+<%= will_paginate %>
+<ul class="users">
+  <%= render partial: "user", collection: @users %>
+</ul>

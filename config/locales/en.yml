@@ -12,6 +12,8 @@ en:
     pass: "Password"
     confirm: "Confirmation"
     remember: "Remember me"
+    edit: "Edit User's Profile"
+    sure: "You sure?"
   link:
     home: "Home"
     about: "About"
@@ -28,6 +30,9 @@ en:
     setting: "Settings"
     logout: "Log Out"
     account: "Account"
+    change: "Change"
+    save: "Save changes"
+    delete: "delete"
     book_html: is a <a href="https://www.railstutorial.org/book">book</a>
   message:
     nil_user: "User is not found!"
@@ -35,3 +40,6 @@ en:
     error:
       one: "The form contains %{count} error."
       other: "The form contains %{count} errors."
+    profile_update: "Profile updated"
+    user_del: "User deleted"
+    login_plz: "Please log in!"

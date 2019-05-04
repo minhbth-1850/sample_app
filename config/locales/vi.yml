@@ -12,6 +12,8 @@ vi:
     pass: "Mat khau"
     confirm: "Nhap lai mat khau"
     remember: "Ghi nho"
+    edit: "Sua doi ho so"
+    sure: "Ban co chac ko?"
   link:
     home: "Trang chu"
     about: "Gioi thieu"
@@ -28,6 +30,9 @@ vi:
     setting: "Cai dat"
     logout: "Dang xuat"
     account: "Tai khoan"
+    change: "Thay doi"
+    save: "Luu lai"
+    delete: "Xoa"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
   message:
     nil_user: "Khong tim thay nguoi dung nay!"
@@ -35,3 +40,6 @@ vi:
     error:
       one: "Ban chi con %{count} loi."
       other: "Ban co %{count} loi."
+    profile_update: "Chinh sua thanh cong"
+    user_del: "Da xoa nguoi dung"
+    login_plz: "Vui long dang nhap!"
