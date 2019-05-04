@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    redirect_to root_url && return unless @user.activated
+    redirect_to root_path && return unless @user.activated
   end
 
   def create
