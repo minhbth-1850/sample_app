@@ -14,6 +14,7 @@ en:
     remember: "Remember me"
     edit: "Edit User's Profile"
     sure: "You sure?"
+    click_mail: "Click on the link below to activate your account:"
   link:
     home: "Home"
     about: "About"
@@ -33,6 +34,7 @@ en:
     change: "Change"
     save: "Save changes"
     delete: "delete"
+    activate: "Activate"
     book_html: is a <a href="https://www.railstutorial.org/book">book</a>
   message:
     nil_user: "User is not found!"
@@ -43,3 +45,10 @@ en:
     profile_update: "Profile updated"
     user_del: "User deleted"
     login_plz: "Please log in!"
+    activated:
+      success: "Account activated!"
+      fail: "Invalid activation link"
+      mail: "Account not activated. Check your email for the activation link."
+      check_mail: "Please check your email to activate your account."
+      subject_mail: "Account activation"
+      greet_mail: "Hi"

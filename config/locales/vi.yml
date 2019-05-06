@@ -14,6 +14,7 @@ vi:
     remember: "Ghi nho"
     edit: "Sua doi ho so"
     sure: "Ban co chac ko?"
+    click_mail: "Click vao link ben duoi de xac thuc tai khoan:"
   link:
     home: "Trang chu"
     about: "Gioi thieu"
@@ -33,6 +34,7 @@ vi:
     change: "Thay doi"
     save: "Luu lai"
     delete: "Xoa"
+    activate: "Xac thuc"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
   message:
     nil_user: "Khong tim thay nguoi dung nay!"
@@ -43,3 +45,10 @@ vi:
     profile_update: "Chinh sua thanh cong"
     user_del: "Da xoa nguoi dung"
     login_plz: "Vui long dang nhap!"
+    activated:
+      success: "Tai khoan da duoc xac thuc"
+      fail: "Link khong dung"
+      mail: "Tai khoan chua d[]c xac thuc. Chon link ben duoi"
+      check_mail: "Vui long kiem tra email de xac thuc tai khoan"
+      subject_mail: "Xac thuc tai khoan"
+      greet_mail: "Xin chao"

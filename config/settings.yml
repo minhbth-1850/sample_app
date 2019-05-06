@@ -6,3 +6,5 @@ users:
   per_page: 10
 conditions:
   checked: "1"
+mails:
+  from: "noreply@example.com"
