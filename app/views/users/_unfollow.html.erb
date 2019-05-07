@@ -1,0 +1,4 @@
+<%= form_for(load_idol(@user.id),
+  html: {method: :delete}, remote: true) do |f| %>
+  <%= f.submit t("link.unfollow"), class: "btn" %>
+<% end %>

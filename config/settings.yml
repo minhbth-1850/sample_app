@@ -5,6 +5,7 @@ users:
   avatar_size: 80
   per_page: 10
   pass_expire: 2
+  avatar_follower: 30
 microposts:
   content_length: 140
   avatar_size: 50

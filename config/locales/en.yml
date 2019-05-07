@@ -45,6 +45,8 @@ en:
     activate: "Activate"
     forgot_pass: "Forgot Password"
     submit: "Submit"
+    follow: "Follow"
+    unfollow: "Unfollow"
     book_html: is a <a href="https://www.railstutorial.org/book">book</a>
   message:
     nil_user: "User is not found!"

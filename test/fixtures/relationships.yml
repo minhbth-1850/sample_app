@@ -1,0 +1,15 @@
+one:
+  follower: michael
+  idol: lana
+
+two:
+  follower: michael
+  idol: malory
+
+three:
+  follower: lana
+  idol: michael
+
+four:
+  follower: archer
+  idol: michael
