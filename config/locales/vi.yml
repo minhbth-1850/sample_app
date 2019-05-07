@@ -15,6 +15,12 @@ vi:
     edit: "Sua doi ho so"
     sure: "Ban co chac ko?"
     click_mail: "Click vao link ben duoi de xac thuc tai khoan:"
+    reset_pass: "Doi mat khau"
+    click_reset_pass: "Click vao link ben duoi de doi mat khau:"
+    reset_pass_html:
+      "Link se het han trong 2h\n\
+      Neu ban khong yeu cau doi mat khau,
+      vui long bo qua email nay va khong co gi thay doi."
   link:
     home: "Trang chu"
     about: "Gioi thieu"
@@ -35,6 +41,8 @@ vi:
     save: "Luu lai"
     delete: "Xoa"
     activate: "Xac thuc"
+    forgot_pass: "Quen mat khau"
+    submit: "Gui"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
   message:
     nil_user: "Khong tim thay nguoi dung nay!"
@@ -52,3 +60,10 @@ vi:
       check_mail: "Vui long kiem tra email de xac thuc tai khoan"
       subject_mail: "Xac thuc tai khoan"
       greet_mail: "Xin chao"
+    password:
+      sent_mail: "Email gui link doi mat khau da dc gui."
+      nil_mail: "Dia chi email khong tim thay"
+      sub_mail: "Doi mat khau"
+      expired: "Doi mat khau da het han"
+      reset: "Mat khau da duoc doi"
+      empty: "khong the de trong"
