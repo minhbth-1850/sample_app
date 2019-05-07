@@ -21,6 +21,8 @@ vi:
       "Link se het han trong 2h\n\
       Neu ban khong yeu cau doi mat khau,
       vui long bo qua email nay va khong co gi thay doi."
+    compose: "Nhap vao noi dung..."
+    micropost: "Danh sach bai dang"
   link:
     home: "Trang chu"
     about: "Gioi thieu"
@@ -67,3 +69,10 @@ vi:
       expired: "Doi mat khau da het han"
       reset: "Mat khau da duoc doi"
       empty: "khong the de trong"
+    micropost:
+      one: "%{count} bai."
+      other: "%{count} bai."
+      create: "Bai dang da duoc tao!"
+      delete: "Bai dang da duoc xoa"
+      nil: "Bai dang khong tim thay!"
+      max_size: "Vui long chon file kich thuoc ko qua 5mb."
