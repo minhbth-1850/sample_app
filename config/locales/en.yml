@@ -21,6 +21,8 @@ en:
       "This link will expire in two hours.\n\
       If you did not request your password to be reset,
       please ignore this email and your password will stay as it is."
+    compose: "Compose new micropost..."
+    micropost: "Micropost Feed"
   link:
     home: "Home"
     about: "About"
@@ -67,3 +69,10 @@ en:
       expired: "Password reset has expired."
       reset: "Password has been reset."
       empty: "can't be empty"
+    micropost:
+      one: "%{count} micropost."
+      other: "%{count} microposts."
+      create: "Micropost created!"
+      delete: "Micropost deleted"
+      nil: "Micropost is not found!"
+      max_size: "Please choose a smaller file is less than 5MB."
