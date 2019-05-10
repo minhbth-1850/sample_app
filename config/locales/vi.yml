@@ -45,6 +45,8 @@ vi:
     activate: "Xac thuc"
     forgot_pass: "Quen mat khau"
     submit: "Gui"
+    follow: "Theo doi"
+    unfollow: "Bo theo doi"
     book_html: la mot <a href="https://www.railstutorial.org/book">cuon sach</a>
   message:
     nil_user: "Khong tim thay nguoi dung nay!"

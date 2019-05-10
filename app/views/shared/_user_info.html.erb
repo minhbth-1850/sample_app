@@ -2,4 +2,6 @@
   current_user %>
 <h1><%= current_user.name %></h1>
 <span><%= link_to t("link.profile"), current_user %></span>
-<span><%= t("message.micropost", count: current_user.microposts.size) %></span>
+<span>
+  <%= t("message.micropost", count: current_user.microposts.count) %>
+</span>

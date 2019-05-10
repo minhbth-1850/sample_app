@@ -16,7 +16,8 @@ class UsersController < ApplicationController
   def show
     redirect_to root_path && return unless @user.activated
     @microposts = @user.microposts.order_created.paginate(
-      page: params[:page])
+      page: params[:page]
+    )
   end
 
   def create
@@ -51,6 +52,18 @@ class UsersController < ApplicationController
     end
   end
 
+  def following
+    @title = "Following"
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
+  end
+
   private
 
   def user_params
@@ -68,7 +81,7 @@ class UsersController < ApplicationController
 
   def load_user
     @user = User.find_by id: params[:id]
-    return @user if @user
+    return if @user
 
     flash[:danger] = t "message.nil_user"
     redirect_to root_path
